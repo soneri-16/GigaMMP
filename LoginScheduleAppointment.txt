@@ -34,7 +34,7 @@ public class LoginPortal {
 			
 		    String actual=driver.findElement(By.tagName("h3")).getText();//get the user name is displayed on the home page
 			System.out.println(actual);
-		++++++++++
+		==================
 			return actual;
 	      }
 
